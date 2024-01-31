@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div {
+    width: 40%;
+    border-radius: 10px; 
+    background-color: #f8f9fa; 
+    box-shadow:32px 32px 8px rgba(0, 1, 1, 0.1); 
+    /*Ruta absoluta de una img*/
+    background-image: url("https://c0.klipartz.com/pngpicture/844/568/gratis-png-fondo-azul-de-acuarela.png"); 
+        background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+span {
+    font-size: 24px; 
+    display: block; 
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+a {
+    color: #3c0de3;
+}
+
+.persona {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .persona img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+  .gustos {
+    font-size: 24px; 
+    line-height: 1.2; 
+}
+
+.gustos u {
+    margin-left: 75px;
+    margin-bottom: 1px; 
+}
+
+.gustos ul {
+    padding-left: 0; 
+    list-style: none; 
+    text-decoration: none;
+}
